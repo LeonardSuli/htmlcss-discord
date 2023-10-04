@@ -103,7 +103,7 @@
     background-color: rgb(37, 94, 233);
 }
 
-#app_header ul, section, .contact{
+#app_header ul, section, .contact, .box{
     display: flex;
 }
 
@@ -126,6 +126,8 @@ a{
 
 /* Main */
 
+/* First Section */
+
 .talk{
     background-image: url('../img/jumbo.png');
     width: 100%;
@@ -137,13 +139,49 @@ a{
     margin: auto;
     align-items: center;
     text-align: center;
-    vertical-align: middle;
-    color: white;
-    line-height: 20px;
-    width: 800px;
-    /* height: 400px; */
-    /* background-color: aliceblue; */
+    width: 700px;
+    flex-direction: column;
 }
+
+.box h1{
+    font-size: 52px;
+    color: white;
+}
+
+.box p{
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.box button{
+    font-size: 18px;
+    border-radius: 28px;
+    border-style: none;
+    padding: 16px 22px;
+    font-weight: 500;;
+}
+
+button.open-discord{
+    background-color: rgb(35, 39, 42);
+    color: white;
+    margin-left: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer .container{
     padding: 1rem auto;
