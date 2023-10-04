@@ -156,7 +156,7 @@ a{
     padding-bottom: 1rem;
 }
 
-.box button{
+.box button, .contact button{
     font-size: 18px;
     border-radius: 28px;
     border-style: none;
@@ -170,10 +170,11 @@ button.open-discord{
     margin-left: 1.5rem;
 }
 
-/* Second, Third and Fourth Section */
+/* Second, Third, Fourth and Fifth Section */
 
 section.found, section.contact{
     background-color: rgb(246, 246, 246);
+    margin: -4px 0;
 }
 
 .place{
@@ -190,10 +191,33 @@ h2{
     line-height: 30px;
 }
 
+.contact{
+    text-align: center;
+    padding: 2rem;
+}
 
+.contact button{
+    color: white;
+    background-color: rgb(142, 161, 225);
+}
 
+.wave{
+    transform: rotate(180deg);
+}
 
+h3{
+    background-image: url('../img/stars.svg');
+    padding: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 24px;
+}
 
+.contact button{
+    margin-top: 3rem;
+}
+
+/* Footer */
 
 footer .container{
     padding: 1rem auto;
