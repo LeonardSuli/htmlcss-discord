@@ -170,13 +170,21 @@ button.open-discord{
     margin-left: 1.5rem;
 }
 
+/* Second Section */
 
+.place{
+    padding: 4rem;
+}
 
+h2{
+    font-size: 48px;
+    padding-bottom: 1rem;;
+}
 
-
-
-
-
+.col-4 p{
+    font-size: 18px;
+    line-height: 30px;
+}
 
 
 
