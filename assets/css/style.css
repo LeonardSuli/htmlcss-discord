@@ -170,7 +170,11 @@ button.open-discord{
     margin-left: 1.5rem;
 }
 
-/* Second Section */
+/* Second, Third and Fourth Section */
+
+section.found, section.contact{
+    background-color: rgb(246, 246, 246);
+}
 
 .place{
     padding: 4rem;
