@@ -247,8 +247,9 @@ footer{
 }
 
 footer h3{
-    font-size: 32px;
+    font-size: 34px;
     color: rgb(142, 161, 225);
+    padding-right: 2rem;
 }
 
 .flag{
@@ -277,11 +278,16 @@ footer ul li{
     margin: 1rem 0 1rem -24px;
 }
 
+footer i {
+    color: white;
+    padding-right: 1.5rem;
+}
 
 
 
 
-.container-2{
+
+.container-bottom{
     display: flex;
     width: 80%;
     margin: auto;
