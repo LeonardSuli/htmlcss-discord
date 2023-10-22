@@ -137,6 +137,13 @@ a{
     text-decoration: none;
     padding: 1.5rem;
     color: white;
+    transition: all 1s;
+    border-radius: 30px;
+}
+
+.main_menu a:hover{
+    font-size: 24px;
+    /* background-color: blue; */
 }
 
 .login button{
@@ -144,6 +151,13 @@ a{
     border-radius: 15px;
     border-style: none;
     padding: 8px 12px;
+    transition: 1s;
+}
+
+.login button:hover{
+    transform: scale(1.5);
+    color: blue;
+    box-shadow: 20px 30px 25px;
 }
 
 /* Main */
@@ -183,15 +197,31 @@ a{
     border-radius: 28px;
     border-style: none;
     padding: 16px 22px;
-    font-weight: 500;;
+    font-weight: 500;
+    transition: 2s;
+}
+
+.download-mac:hover{
+    background-color: rgb(141, 233, 236);
+    box-shadow: 20px 30px 25px;
+    cursor: pointer;
+    transform: rotate(360deg);
+}
+
+.download-mac:active{
+    transform: scale(1.5);
 }
 
 button.open-discord{
     background-color: rgb(35, 39, 42);
     color: white;
     margin-left: 1.5rem;
+    transition: all 2s;
 }
 
+button.open-discord:hover{
+    transform: translateY(500px);
+}
 /* Second, Third, Fourth and Fifth Section */
 
 section.found, section.contact{
@@ -282,10 +312,6 @@ footer i {
     color: white;
     padding-right: 1.5rem;
 }
-
-
-
-
 
 .container-bottom{
     display: flex;
